@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background: #000;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.container .header .logo{
+    width: 44px;
+}
+.container .header ul li{
+    display: inline-block;
+}
+.container .header ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+.container .header ul li a:hover{
+    opacity: 0.7;
+}
+/* ================================== */
+.landing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.landing .text{
+    width: 40%;
+}
+.landing h1{
+    text-transform: uppercase;
+}
+.landing p{
+    color: #ccc;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.landing a{
+    text-decoration: none;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #0dafe0;
+}
+.landing a:hover{
+    opacity: 0.9;
+}
+.landing .imagess{
+    width: 30%;
+}
+.landing .imagess img{
+    width: 180px;
+}
+/* ================================== */
+.icons{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+    width: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.icons img:hover{
+    transform: scale(1.1);
+}
